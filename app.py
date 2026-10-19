@@ -155,7 +155,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="container">
         <div class="header">
-            <h2>Loan Eligibility </h2>
+            <h2>Loan Eligibility Chek</h2>
             <p>Enter applicant details below to evaluate approval eligibility</p>
         </div>
         <form action="/predict" method="POST" class="form-grid">
@@ -167,7 +167,7 @@ HTML_TEMPLATE = """
                 </select>
             </div>
             <div class="form-group">
-                <label>Marital Status</label>
+                <label>Married Status</label>
                 <select name="Married">
                     <option value="1">Married</option>
                     <option value="0">Single</option>
