@@ -155,7 +155,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="container">
         <div class="header">
-            <h2>Loan Eligibility AI</h2>
+            <h2>Loan Eligibility </h2>
             <p>Enter applicant details below to evaluate approval eligibility</p>
         </div>
         <form action="/predict" method="POST" class="form-grid">
